@@ -5,7 +5,7 @@
 @prefix rag: <http://www.nsmntx.org/2024/01/rag#> .
 
 # Main ontology definition
-<http://www.semanticweb.org/yousefeshaq/ontologies/winmo> rdf:type owl:Ontology .
+
 
 #################################################################
 #    Object Properties from winmo ontology
@@ -28,9 +28,6 @@
 #################################################################
 #    Imported Ontology: rag.ttl
 #################################################################
-rag:furtherDetailRelationship rdf:type owl:ObjectProperty ;
-                              rdfs:label "Further Detail Relationship" ;
-                              rdfs:comment "A relationship connecting an entity to related entities that provide further details about it" .
 
 rag:inverseContextualisingRelationship rdf:type owl:ObjectProperty ;
                                        rdfs:label "Inverse Contextualising Relationship" ;
