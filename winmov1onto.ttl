@@ -4,8 +4,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rag: <http://www.nsmntx.org/2024/01/rag#> .
 
-# Main ontology definition
-
 
 #################################################################
 #    Object Properties from winmo ontology
